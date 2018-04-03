@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inclassassignment08_muyuny.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text_view_00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Key!"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+       />
+    <EditText
+        android:id="@+id/text_view_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type key here"
+        android:inputType= "textCapWords"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Value!"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <EditText
+        android:id="@+id/text_view_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type value here"
+        android:inputType= "textCapWords"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write to cloud"
+        android:onClick="writetoCloud"
+
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read from Cloud"
+        android:onClick="readfromCloud"
+
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"/>
+
+</LinearLayout>
